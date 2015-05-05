@@ -1,7 +1,7 @@
 var test = require('tape');
 var multilinestring = require('./')
 
-test('point', function(t){
+test('multilinestring', function(t){
   t.deepEqual(multilinestring([[[0,0],[10,10]], [[5,0],[15,8]]]), {
     "type": "Feature",
     "properties": {},
