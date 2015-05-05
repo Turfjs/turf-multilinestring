@@ -22,9 +22,9 @@ coordinate array. Properties can be added optionally.
 ### Example
 
 ```js
-var multiPt = turf.multilinestring([[0,0],[10,10]]);
+var multiLine = turf.multilinestring([[0,0],[10,10]]);
 
-//=multiPt
+//=multiLine
 ```
 
 
